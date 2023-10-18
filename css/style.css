@@ -8,15 +8,27 @@ body {
 }
 
 .header {
-    background-color: rgb(17, 17, 17);
+    background-color: #111111;
     color: #e4e4e7;
     text-align: center;
 }
 
-.title {
-    font-size: 2.75rem;
-    padding: 1rem 0;
-    font-family: 'Montserrat';
+.header__brand {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.header__logo {
+    width: 2.5rem;
+    fill: #e4e4e7;
+}
+
+.header__title {
+    font-size: 2.25rem;
+    padding: 1rem .5rem;
+    font-family: 'Abril Fatface', serif;
+    color: #eea450;
 }
 
 .banner {}
@@ -28,7 +40,7 @@ body {
 
 .barber {
     padding: 1rem 0;
-    background-color: rgb(3, 3, 31);
+    background-color: #252525;
     color: #e4e4e7;
 }
 
@@ -44,5 +56,34 @@ body {
 .section__icon {
     width: 2.5rem;
     padding: 0 1rem;
-    fill: #e4e4e7;
+    fill: #eea450;
 }
+
+.section__title {
+    font-size: large;
+    font-weight: 600;
+    color: #e4e4e7;
+}
+
+.section__text {
+    padding: .5rem 1rem;
+}
+
+.footer {
+    background-color: #252525;
+    color: #e4e4e7;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  .footer__text {
+    font-size: medium;
+    font-weight: 400;
+  }
+  
+  .footer__copyright {
+    font-size: small;
+    font-weight: 400;
+    margin-top: .5rem;
+  }
+  
