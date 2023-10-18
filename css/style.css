@@ -1,0 +1,48 @@
+body {
+    background-color: #e4e4e7;
+}
+
+.container {
+    max-width: 90vw;
+    margin: auto;
+}
+
+.header {
+    background-color: rgb(17, 17, 17);
+    color: #e4e4e7;
+    text-align: center;
+}
+
+.title {
+    font-size: 2.75rem;
+    padding: 1rem 0;
+    font-family: 'Montserrat';
+}
+
+.banner {}
+
+.banner__image {
+    display: block;
+    width: 100%;
+}
+
+.barber {
+    padding: 1rem 0;
+    background-color: rgb(3, 3, 31);
+    color: #e4e4e7;
+}
+
+.barber__section {
+    padding: 1rem 0;
+}
+
+.section__header {
+    display: flex;
+    align-items: center;
+}
+
+.section__icon {
+    width: 2.5rem;
+    padding: 0 1rem;
+    fill: #e4e4e7;
+}
