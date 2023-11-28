@@ -172,29 +172,24 @@ body {
     }
 }
 
-/* Estilos para desktops (a partir de 1024px) */
 @media only screen and (min-width: 1024px) {
     .container {
-        max-width: 1200px; /* ou outro valor desejado */
+        max-width: 1200px;
     }
 
     .header__logo {
-        width: 3rem; /* ou outro tamanho desejado */
-    }
-
-    .banner__image {
-        /* Estilos específicos para a imagem do banner em desktops */
+        width: 3rem;
     }
 
     .section__title {
-        font-size: 2rem; /* ou outro tamanho desejado */
+        font-size: 2rem;
     }
 
     .section__text {
-        padding: 1rem 2rem; /* ou outro preenchimento desejado */
+        padding: 1rem 2rem;
     }
 
     .footer {
-        padding: 2rem 0; /* ou outro preenchimento desejado */
+        padding: 2rem 0;
     }
 }
