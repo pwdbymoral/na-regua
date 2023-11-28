@@ -1,5 +1,8 @@
 body {
     background-color: #e4e4e7;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;;
 }
 
 .container {
@@ -39,8 +42,12 @@ body {
 .barber {
     background-color: #252525;
     color: #e4e4e7;
-    min-height: 65vh;
+    min-height: 54vh;
     padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 
 .barber__section {
@@ -179,6 +186,12 @@ body {
 
     .header__logo {
         width: 3rem;
+    }
+
+    .banner__image {
+        object-fit: cover;
+        width: 100vw;
+        height: 15rem;
     }
 
     .section__title {
